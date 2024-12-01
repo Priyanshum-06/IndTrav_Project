@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Website Project</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav_header">
+            <div class="nav_logo">
+                <a href="#" class="logo">Ind<span>Trav</span></a>
+            </div>
+            <div class="nav_menu_btn" id="menu_btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav_links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#destination">Destination</a></li>
+            <li><a href="#package">Packages</a></li>
+            <li><a href="#client">Clients</a></li>
+            <li><a href="login.html">login</a></li>
+        </ul>
+    </nav>
+    <header class="header" id="home">
+        <div class="section_container header_container">
+            <h1>TRAVELLER<br /><span>FOR LIFE.</span></h1>
+            <p>Live your best moments</p>
+            <form action="/">
+                <div class="input_group">
+                    <span><i class="ri-map-2-fill"></i></span>
+                    <input type="text" placeholder="Where are you going?">
+                </div>
+                <div class="input_group">
+                    <span><i class="ri-map-pin-2-fill"></i></span>
+                    <input type="text" placeholder="Location">
+                </div>
+                <div class="input_group">
+                    <span><i class="ri-list-ordered-2"></i></span>
+                    <input type="text" placeholder="Tour type">
+                </div>
+                <div class="input_group">
+                    <btton class="btn">Search</btton>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <section class="section_container feature_container" id="service">
+        <div class="feature_card">
+            <img src="feature-1.jpg" alt="feature">
+            <div>
+                <h4>Best Destinations</h4>
+                <p>Discover the most breathtaking places around the globe.</p>
+            </div>
+        </div>
+        <div class="feature_card">
+            <img src="feature-2.png" alt="feature">
+            <div>
+                <h4>Best Price Guaranteed</h4>
+                <p>Enjoy unbeatable prices on every trip you book.</p>
+            </div>
+        </div>
+        <div class="feature_card">
+            <img src="feature-3.avif" alt="feature">
+            <div>
+                <h4>Instant Booking</h4>
+                <p>Secure your dream vacation with just a click.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="destination" id="destination">
+        <div class="section_container destination_container">
+            <h2 class="section_header">Top Destinations</h2>
+            <p class="section_description">
+                Find out what are the best destinations in the world
+            </p>
+            <div class="destination_grid">
+                <div class="destination_card">
+                    <img src="destination-1.jpg" alt="destination">
+                    <div class="destination_content">Bhutan</div>
+                </div>
+                <div class="destination_card">
+                    <img src="destination-2.jpg" alt="destination">
+                    <div class="destination_content">Japan</div>
+                </div>
+                <div class="destination_card">
+                    <img src="destination-3.jpg" alt="destination">
+                    <div class="destination_content">Nepal</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="discount">
+        <div class="section_container discount_container">
+            <h2>
+                Get upto 60% discount<br /><span>by joining us before summer</span>
+            </h2>
+            <div class="discount_btn">
+                <button class="btn">JOIN US</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_container package_container" id="package">
+        <h2 class="section_header">Featured Packages</h2>
+        <p class="section_description">
+            We will help you find the trip that's perfect for you!
+        </p>
+        <div class="package_grid">
+            <div class="package_card">
+                <img src="package-1.jpg" alt="package">
+                <div class="package_card_details">
+                    <h4>Thailand City Tour</h4>
+                    <p>
+                        Explore the vibrant culture and stunning landscapes of Thailand's
+                        bustling cities.
+                    </p>
+                    <div>
+                        <button class="btn">Book Now</button>
+                        <h3>$130</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="package_card">
+                <img src="package-2.jpg" alt="package">
+                <div class="package_card_details">
+                    <h4>Laos City Tour</h4>
+                    <p>
+                        Immerse yourself in the rich culture and stunning landscapes of
+                        Laos.
+                    </p>
+                    <div>
+                        <button class="btn">Book Now</button>
+                        <h3>$150</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="package_card">
+                <img src="package-3.jpg" alt="package">
+                <div class="package_card_details">
+                    <h4>Singapore City Tour</h4>
+                    <p>
+                        Experience the vibrant blend of culture, cuisine, and cutting-edge
+                        architecture.
+                    </p>
+                    <div>
+                        <button class="btn">Book Now</button>
+                        <h3>$110</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_container client_container" id="client">
+        <h2 class="section_header">Client Reviews</h2>
+        <p class="section_description">
+            We have many happy customers who booked holidays with us
+        </p>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="client_card">
+                        <img src="client-1.avif" alt="client">
+                        <span><i class="ri-double-quotes-l"></i></span>
+                        <p>
+                            The instant booking-feature is a game-changer. I secured
+                            dream vacation to Bali in minutes !
+                        </p>
+                        <h4>Michael Lee</h4>
+                        <h5>Software Engineer</h5>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client_card">
+                        <img src="client-2.jpg" alt="client">
+                        <span><i class="ri-double-quotes-l"></i></span>
+                        <p>
+                            IndTrav made my vacation planning effortless and enjoyable.
+                            Their best price guarantee really delivered! 
+                        </p>
+                        <h4>Sarah Johnson</h4>
+                        <h5>Marketing Manager</h5>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client_card">
+                        <img src="client-3.jpg" alt="client">
+                        <span><i class="ri-double-quotes-l"></i></span>
+                        <p>
+                            IndTrav offers an unbeatable combination of great and 
+                            top customer service. Highly recommended!
+                        </p>
+                        <h4>David Martinez</h4>
+                        <h5>Financial Analyst</h5>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client_card">
+                        <img src="client-4.jpg" alt="client">
+                        <span><i class="ri-double-quotes-l"></i></span>
+                        <p>
+                            Booking with IndTrav was a breeze. Their user-friendly
+                            interface and instant confirmation saved me so much time.
+                        </p>
+                        <h4>Olivia Brown</h4>
+                        <h5>Event Planner</h5>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client_card">
+                        <img src="client-5.jpg" alt="client">
+                        <span><i class="ri-double-quotes-l"></i></span>
+                        <p>
+                            From booking to travel, every step was seamless. IndTrav
+                            truly makes travel dreams come true!
+                        </p>
+                        <h4>Novak Djokovic</h4>
+                        <h5>Tennis Player</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <div class="section_container subscribe_container">
+            <h2>Subscribe to our newsletter for updates</h2>
+            <div>
+                <p>For the best recommendation of yours. Please Subscribe Us.</p>
+                <form action="/">
+                    <input type="text" placeholder="Enter Your Email Here">
+                    <button class="btn">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="section_container footer_container">
+            <div class="footer_col">
+                <div class="footer_logo">
+                    <a href="#" class="logo">Ind<span>Trav</span></a>
+                </div>
+                <p>
+                    Explore the world's best destinations, enjoy unbeatable price and
+                    book your perfect gateway instantly.
+                </p>
+                <h4>CONNECT WITH US</h4>
+                <ul class="footer_socials">
+                    <li>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-google-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>QUICK LINKS</h4>
+                <ul class="footer_links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>DESTINATIONS</h4>
+                <ul class="footer_links">
+                    <li><a href="#">China</a></li>
+                    <li><a href="#">Venezuela</a></li>
+                    <li><a href="#">Brazil</a></li>
+                    <li><a href="#">Australia</a></li>
+                    <li><a href="#">London</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>OUR ACTIVITIES</h4>
+                <ul class="footer_links">
+                    <li><a href="#">Trekking</a></li>
+                    <li><a href="#">Peak Climbing</a></li>
+                    <li><a href="#">Biking</a></li>
+                    <li><a href="#">River Rafting</a></li>
+                    <li><a href="#">Cultural Tour</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_bar">
+            <p>&copy; Copyright 2024 IndTrav. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
